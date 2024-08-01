@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import BannerBackground from "../assets/home-banner-background.png";
 import BannerImage from "../assets/home-banner-image.png";
+import BannerImagePink from "../assets/pink.webp";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -24,8 +25,9 @@ const Home = () => {
             Order Now <FiArrowRight />
           </button>
         </div>
-        <div className="home-image-container">
-          <img src={BannerImage} alt="" />
+        <div className="home-image-section">
+          <img className="img1" src={BannerImagePink} alt="" />
+          <img className="img2" src={BannerImage} alt="" />
         </div>
       </div>
     </div>

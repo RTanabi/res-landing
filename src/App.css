@@ -73,17 +73,10 @@ nav {
   max-width: 700px;
 }
 .home-image-section {
-  position: relative;
   max-width: 600px;
   flex: 1;
 }
-.home-image-section .img1 {
-  position: absolute;
-  align-items: center;
-  top: -30px;
-  left: 0;
-  z-index: 1;
-}
+
 .home-text-section {
   flex: 1;
   display: flex;
